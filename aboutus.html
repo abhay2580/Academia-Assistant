@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>About Us</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+*{
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #eccc68;
+}
+.about-sec{
+	display: flex;
+	padding: 3rem 0;
+	width: 100%;
+	justify-content: center;
+	background: #fff;
+}
+.about-sec::before{
+	content: '';
+  position: absolute;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.09);
+}
+
+
+.about-img{
+	
+	width: 350px;
+	height: 150px;
+	margin-top: 40px;
+}
+.about-img img{
+	height: 100%;
+	width: 100%;
+}
+
+.about-intro{
+	color: #000;
+	width: 400px;
+	height: 250px;
+	border-left: 3px solid #00b894;
+	padding-left: 2rem;
+	margin: 0 3rem;
+	align-self: center;
+	
+	
+}
+.about-intro p{
+	margin-top: 1.5rem;
+	font-size: 15px;
+	font-weight: 400;
+	
+	
+}
+@media only screen and (max-width: 900px) {
+	.about-sec{
+		flex-direction: column;
+		align-items: center;
+	}
+	.about-img{
+		width: 80%;
+	}
+	.about-intro{
+		width: 100%;
+		height: 100%;
+		border-top: 3px solid #00b894;
+		border-left: none;
+		padding: 1rem;
+		margin-top: 2rem;
+	}
+	.about-intro h3,p{
+		width: 80%;
+	}
+	.about-intro p{
+		font-size: 12px;
+	}
+
+
+}
+
+	</style>
+</head>
+
+<body>
+	<nav>
+		<div class="menu">
+		  <div class="logo">
+			<i class="fab fa-slack"></i>
+			<a href="index.html">Academia Assistant</a>
+		  </div>
+		  <ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="aboutus.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		  </ul>
+		</div>
+	  </nav>
+
+
+	<div class="about-sec">
+		<div class="about-img">
+			<img src="img/bvicam.png" >
+		</div>
+		<div class="about-intro">
+			<h3>About Us<span style="color: #00b894;"> !</h3>
+			<p>We are here to Assist students and address their problems to the authorities. We provide convinient options to raise complaints and queries
+				that are easy to coordinate, monitor and track. </p>
+			<p>In brief we make your life college life hassle free.</p>
+		</div>
+	</div>
+
+	<footer>
+		<div class="bottom-details">
+		<div class="bottom_text">
+		  <span class="copyright_text">Copyright © 2022 <a href="index.html">Academia Assistant.</a>All rights reserved</span>
+		  <span class="policy_terms">
+			<b>Created by : </b>
+			<a href="https://www.linkedin.com/in/abhay-yadav-23a108227/" target="_blank"> Abhay Yadav</a>
+			<a href="https://www.linkedin.com/in/akmallick/" target="_blank">Ashish Kumar Mallick</a> 
+		  </span>
+		</div>
+	  </div>
+	</footer>
+
+</body>
+</html>
